@@ -1,0 +1,43 @@
+.mobile-btn{
+  z-index: 5;
+
+  height: 100%;
+  width: 22px;
+  
+  background: none;
+  
+  display: none;
+  
+  border: none;
+  outline: none;
+
+  cursor: pointer;
+
+  .bar{
+    height: 3px;
+    width: 100%;
+
+    background: $color-primary-font;
+    
+    margin: 4px 0 0;
+
+    transition: .2s;
+  }
+  
+  .change .bar{
+    &:nth-child(1){
+    transform: rotate(-45deg) translate( 0px, 8px);
+    }
+    &:nth-child(2){
+      opacity: 0;
+    }
+    &:nth-child(3){
+      transform: rotate(45deg) translate(-3px, -11px);
+    }
+  }
+
+  @media only screen and(max-width: $media-small){
+    display: block;
+  }
+}
+

@@ -1,0 +1,7 @@
+.brand-icon{
+  height: 2.5rem;
+
+  @media only screen and(max-width: $media-small){
+    height: 1.7rem;
+  }
+}

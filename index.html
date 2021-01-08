@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spotify Clone</title>
+  <link rel="stylesheet" href="./styles/css/main.css">
+</head>
+<body class="body">
+  <header class="header">
+    <div class="container">
+      <img src="./img/logo.png" class="brand-icon"/>
+      <nav class="nav-desktop js-nav">
+        <ul class="list">
+          <li class="item primary">
+            <a href="#" class="link">Premium</a>
+          </li>
+          <li class="item primary">
+            <a href="#" class="link">Suporte</a>
+          </li>
+          <li class="item primary">
+            <a href="#" class="link">Baixar</a>
+          </li>
+          <li role="separator" class="separator"></li>
+          <li class="item secondary">
+            <a href="#" class="link">Inscrever-se</a>
+          </li>
+          <li class="item secondary">
+            <a href="#" class="link">Entrar</a>
+          </li>
+        </ul>
+        <img src="./img/logo.png" class="brand-icon"/>
+      </nav>
+      <button class="mobile-btn">
+        <span onclick="changeNav(this)" class="js-btn">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </span>
+      </button>
+    </div>
+    <div class="js-overlayer"></div>
+  </header>
+  <main class="main">
+    <section class="section primary">
+      <div class="content">
+        <p class="info max-hidden">
+          RETROSPECTIVA
+        </p>
+        <div class="graphic-content">
+          <div class="bg-graphic"></div>
+          <div class="graphic">
+              Retrospectiva
+          </div>
+        </div>
+        <span class="wrapper-info">
+          <p class="info min-hidden">
+            RETROSPECTIVA
+          </p>
+          <h1 class="title">
+            Veja o que rolou no seu Spotify
+          </h1>
+          <h2 class="subtitle">
+            Descubra os artistas, músicas e podcasts que te ajudaram a sobreviver ao ano mais longo da história.
+          </h2>
+          <button class="btn">
+            CONFIRA SUA RETROSPECTIVA
+          </button>
+        </span>
+      </div>
+    </section>
+    <section class="section secondary">
+      <div class="content">
+        <span class="wrapper-info">
+          <p class="info">
+            SPOTIFY FREE
+          </p>
+          <h1 class="title">
+            Escutar muda tudo
+          </h1>
+          <h2 class="subtitle">
+            Milhões de músicas e podcasts para explorar. E nem precisa de cartão de crédito.
+          </h2>
+          <button class="btn">
+            OBTENHA O SPOTIFY FREE
+          </button>
+        </span>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer-grid">
+      <div class="brand-wrapper">
+        <img src="./img/logo.png" class="brand-icon" />
+      </div>
+      <div class="top-links">
+        <dl class="dlist">
+          <dt class="title">EMPRESSAS</dt>
+          <dd class="item">
+            <a href="#" class="link">Sobre</a>
+          </dd>
+          <dd class="item">
+            <a href="#" class="link">Empregos</a>
+          </dd>
+          <dd class="item">
+            <a href="#" class="link">For the Record</a>
+          </dd>
+        </dl>
+        <dl class="dlist">
+          <dt class="title">COMUNIDADES</dt>
+          <dd class="item">
+            <a href="#" class="link">Para Artistas</a>
+          </dd>
+          <dd class="item">
+            <a href="#" class="link">Desenvolvedores</a>
+          </dd>
+          <dd class="item">
+            <a href="#" class="link">Publicidade</a>
+          </dd>
+          <dd class="item">
+            <a href="#" class="link">Investidores</a>
+          </dd>
+          <dd class="item">
+            <a href="#" class="link">Fornecedores</a>
+          </dd>
+        </dl>
+        <dl class="dlist">
+          <dt class="title">LINKS ÚTEIS</dt>
+          <dd class="item">
+            <a href="#" class="link">Suporte</a>
+          </dd>
+          <dd class="item">
+            <a href="#" class="link">Player da Web</a>
+          </dd>
+          <dd class="item">
+            <a href="#" class="link">Aplicativo Móvel Gratis</a>
+          </dd>
+          <dd class="item">
+            <a href="#" class="link">Retrospectiva 2020</a>
+          </dd>
+        </dl>
+      </div>
+      <div class="social-icons">
+        <ul class="list">
+          <li class="item">
+            <img src="./img/instagram-icon.png" class="image" alt="instagram">
+          </li>
+          <li class="item">
+            <img src="./img/twitter-icon.png" class="image" alt="twitter">
+          </li>
+          <li class="item">
+            <img src="./img/facebook-icon.png" class="image" alt="facebook">
+          </li>
+        </ul>
+      </div>
+      <div class="country-icon">
+        <a href="#" class="link">Brazil</a>
+        <img src="./img/flag.png" alt="bandeira" class="flag">
+      </div>
+      <div class="bottom-links">
+        <ul class="list">
+          <li class="item">
+            <a href="#" class="link">Legal</a>
+          </li>
+          <li class="item">
+            <a href="#" class="link">Centro de Privacidade</a>
+          </li>
+          <li class="item">
+            <a href="#" class="link">Política de privacidade</a>
+          </li>
+          <li class="item">
+            <a href="#" class="link">Cookies</a>
+          </li>
+          <li class="item">
+            <a href="#" class="link">Sobre anúncios</a>
+          </li>
+        </ul>
+        <span class="copy">
+          &copy; 2021 Spotify
+        </span>
+      </div>
+    </div>
+  </footer>
+  <script src="./js/main.js"></script> 
+</body>
+</html>
