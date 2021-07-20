@@ -13,4 +13,4 @@ A Spotify  ui clone for study purposes. This project was carried out with the ai
 
 <hr>
 
-Ui Clone Spotify - by [Renan](https://github.com/renanllima)
+Ui Clone Spotify - by [Renan](https://github.com/renanconst)
